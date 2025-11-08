@@ -1,0 +1,13 @@
+node_modules
+.git
+.github
+build
+*.md
+.husky
+.editorconfig
+.gitattributes
+.gitignore
+.nvmrc
+.prettierignore
+.prettierrc.json
+.clang-format

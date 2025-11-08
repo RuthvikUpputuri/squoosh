@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  squoosh:
+    image: ruthvikupputuri/squoosh:latest-arm64
+    container_name: squoosh
+    restart: unless-stopped
+    ports:
+      - "8080:80"  # Change this port as needed
+
+# Optional: If using with reverse proxy, see examples below
